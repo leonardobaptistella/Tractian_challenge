@@ -1,14 +1,14 @@
 #include <iostream>
 #include <string>
 #include <iomanip> 
-#include <sstream> //Parse the file
+#include <sstream> 
 #include <vector>
-#include <fstream> //Read and Write Files
-
+#include <fstream> 
 using namespace std; 
 
-int main() {
 
+int main() {
+	
 	// define variables
 	string X, Y, Z  ;
 	vector<float>X_V;
@@ -29,7 +29,7 @@ int main() {
 	//number of lines
 	int i = 0;
 
-	// File lines to Array
+	// File to Array
 	ifstream coeff(file); //opening the file.
 	if (coeff.is_open()) //if the file is open
 	{
